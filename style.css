@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+#clock-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+canvas{
+}
+
+.one-region{
+    border: 8px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.75);
+    width: 240px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
